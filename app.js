@@ -24,7 +24,7 @@
     const b=G.mainBuild;
     document.querySelector('#recommended-build').innerHTML=`
       <div class="build-summary"><div class="build-title-row"><div class="build-emblem" aria-hidden="true">21</div><div><h3>Shadow pressure</h3><div class="point-split">LEVEL 30 · ${esc(b.split)} POINTS · ${b.points} TOTAL</div></div></div>
-      <p class="build-reason">I’d start here for the damage style you asked for. Shadow Weaving rewards steady pressure; Mind Flay slows your target, and Silence can shut down an important cast.</p>
+      <p class="build-reason">I’d start here for the damage style. Shadow Weaving rewards steady pressure; Mind Flay slows your target, and Silence can shut down an important cast.</p>
       <div class="build-pills"><span>Pressure</span><span>Range</span><span>Silence</span><span>Mind Flay</span></div>
       <p class="build-tradeoff"><strong>The trade:</strong> you skip Discipline’s improved-shield and mana talents. Shadowform is beyond level 30’s 21-point budget.</p>
       <a class="builder-link" href="${esc(b.link)}" target="_blank" rel="noopener noreferrer">Open this allocation in the talent builder ↗</a></div>
