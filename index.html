@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080909">
+  <meta name="description" content="A personal level-30 Priest guide, made by Sekilov for DirtyBrown.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="DirtyBrown — Level 30, yours">
+  <meta property="og:description" content="A personal PvP field guide for Daddy’s Tweaker, made by Sekilov for DirtyBrown.">
+  <meta property="og:image" content="https://sekilov251.github.io/dirtybrown-priest-guide/assets/daddy-tweaker-level30.png">
+  <meta property="og:image:alt" content="Daddy’s Tweaker, the level-30 Undead Priest, in Thunder Bluff">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>DirtyBrown — Level 30, yours</title>
+  <link rel="icon" href="assets/icons/136126.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="guide-data.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#welcome" aria-label="Back to the welcome">
+      <span class="brand-mark">S</span><span>SEKILOV <i>FOR</i> DIRTYBROWN</span>
+    </a>
+    <nav aria-label="Character guide">
+      <a href="#build">Build</a><a href="#choices">Other paths</a><a href="#gear">Gear</a><a href="#fieldguide">Playbook</a>
+    </nav>
+    <span class="cap-mark"><span class="live-dot"></span> LEVEL 30 REACHED</span>
+  </header>
+
+  <main>
+    <section class="welcome" id="welcome">
+      <div class="welcome-copy">
+        <p class="eyebrow"><span class="rule"></span>A LITTLE SOMETHING FROM SEKILOV</p>
+        <h1>Level 30.<br><em>All yours.</em></h1>
+        <p class="character-line">DIRTYBROWN <span>·</span> DADDY’S TWEAKER <span>·</span> UNDEAD PRIEST · HORDE</p>
+        <p class="letter">Your Priest hit the level-30 cap. Thanks for trusting me with the leveling order, man. I put together a quick field guide to the setup I’d try first—and two other paths if you feel like playing him differently.</p>
+        <a class="primary-link" href="#build">See the build I’d start with <span aria-hidden="true">↓</span></a>
+      </div>
+      <figure class="portrait-wrap">
+        <img class="portrait" src="assets/daddy-tweaker-level30.png" alt="Daddy’s Tweaker, the level-30 Undead Priest in Thunder Bluff">
+        <div class="portrait-dedication">FOR DIRTYBROWN <i>·</i> FROM SEKILOV</div>
+        <figcaption><span>DADDY’S TWEAKER</span><span>LEVEL 30 · DELIVERED</span></figcaption>
+        <div class="portrait-corner" aria-hidden="true">30</div>
+      </figure>
+    </section>
+
+    <section class="section build-section" id="build">
+      <div class="section-heading"><div><p class="eyebrow">THE PATH I’D TAKE</p><h2>Start in Shadow.</h2></div><span class="section-index">01 / YOUR BUILD</span></div>
+      <div id="recommended-build" class="recommended-build"></div>
+      <p class="honest-note">This is my pick for the damage style you asked for. The current talent data supports the build; it doesn’t prove that any one setup wins every duel.</p>
+    </section>
+
+    <section class="section" id="choices">
+      <div class="section-heading"><div><p class="eyebrow">SAME CLASS · DIFFERENT FEEL</p><h2>Two other ways to play it.</h2></div><span class="section-index">02 / YOUR CHOICE</span></div>
+      <p class="section-intro">All three spend the normal 21 points. The gear below was picked around Shadow, so review it before taking either alternative into a match.</p>
+      <div id="build-choices" class="choice-grid"></div>
+    </section>
+
+    <section class="section" id="gear">
+      <div class="section-heading"><div><p class="eyebrow">BUILT AROUND THE SHADOW PICK</p><h2>Gear with a job to do.</h2></div><span class="section-index">03 / EQUIPMENT</span></div>
+      <p class="section-intro">These are targets for the level-30 setup, not a scan of what’s in your bags. Each piece has a reason; click any icon to see its game tooltip.</p>
+      <div class="stat-strip" id="planned-stats"></div>
+      <div id="gear-grid" class="gear-grid"></div>
+      <div class="trinket-note" id="trinket-note"></div>
+      <div class="farm-route"><p class="eyebrow">DUNGEON GEAR ROUTE</p><div id="farm-grid" class="farm-grid"></div><p id="farm-caveat" class="small-note"></p></div>
+    </section>
+
+    <section class="section" id="fieldguide">
+      <div class="section-heading"><div><p class="eyebrow">WHEN THE DUEL STARTS</p><h2>Keep the pressure yours.</h2></div><span class="section-index">04 / FIELD NOTES</span></div>
+      <div id="pressure-list" class="pressure-list"></div>
+    </section>
+
+    <section class="section finish-section" id="next-steps">
+      <div class="section-heading"><div><p class="eyebrow">A FEW GOOD NEXT STEPS</p><h2>Make the setup real.</h2></div><span class="section-index">05 / PREP</span></div>
+      <div class="next-grid" id="next-grid"></div>
+      <details class="confidence-note"><summary>A note on what’s confirmed</summary><p>Build budgets and displayed item or spell details come from the current Forever client records. They don’t confirm which talents DirtyBrown has bought or which items he owns. Some dungeon routes, quest access, and professions still need an in-game check. PvP performance hasn’t been measured.</p></details>
+    </section>
+    <footer class="farewell"><span>Made just for <strong>DirtyBrown</strong></span><span>Have fun with him out there. <b>— Sekilov</b></span></footer>
+  </main>
+
+  <dialog id="detail-dialog" aria-labelledby="detail-title"><div class="dialog-header"><h2 id="detail-title"></h2><button class="close-button" aria-label="Close details">×</button></div><div id="detail-body"></div></dialog>
+</body>
+</html>
